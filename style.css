@@ -1,0 +1,96 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+    background-color: black;
+    font-family: Arial, sans-serif;
+
+
+}   
+
+.calculator{
+    width: 300px;
+    background:#f3e0d1;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 15px rgba(0,0,0, 0.2);
+}
+
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+    font-size: 16px;
+
+}
+
+.title{
+    font-weight: bold;
+    color: black;
+}
+
+.Converter{
+    font-weight: bold;
+    color: grey;
+}
+
+
+/* display */
+
+.display{
+    
+    background-color: none;
+    color: black;
+    font-size: 32px;
+    text-align: right;
+    padding: 15px;
+    border-radius: 10px;
+    /* border: 1px solid #ddd; */
+    margin-bottom: 10px;
+    margin-top: 8rem;
+
+}
+
+/* buttons */
+
+.btn{
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 6px 5px rgba(0,0,0, 0.1);
+    cursor: pointer;
+    margin: 0.2rem;
+    box-shadow: ;
+}
+
+.btn:active {
+    transform: scale(0.95);
+}
+
+
+/* special buttons */
+
+.functions, .operator{
+    font-weight: bold;
+    color:  #f7931e;
+
+}
+
+.equal {
+    background-color: #f7931e ;
+    color: white;
+    font: bold;
+}
+
+.sec1, .sec2 , .sec3, .sec4, .sec5{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0.5rem;
+}
